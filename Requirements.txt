@@ -1,0 +1,13 @@
+streamlit==0.89.0
+llama_index==0.1.0
+chromadb==0.1.0
+langchain==0.1.0
+transformers==4.13.0
+torch==1.10.0
+PyMuPDF==1.19.0
+pydub==0.25.1
+beautifulsoup4==4.10.0
+docx==0.3.0
+bs4==0.0.1
+pillow==9.0.1
+python-docx==0.8.11
