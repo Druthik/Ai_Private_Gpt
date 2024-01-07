@@ -25,7 +25,7 @@ Features:
 Usage:
     Clone the Repository:
     
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/Druthik/Ai_Private_Gpt.git
     cd your-repository
 
 Install Dependencies:
@@ -34,9 +34,7 @@ Install Dependencies:
     
 Run the Application:
 
-    streamlit run your_script_name.py
-
-    Replace your_script_name.py with the actual name of your Python script.
+    streamlit run with_streamlit.py
 
 Usage Modes:
 
@@ -55,18 +53,18 @@ Dependencies:
 
 Configuration:
 
-    Python 3.x
-    Hugging Face Models:
+    1.Python 3.x
+    2.Hugging Face Models:
         If you're using specific Hugging Face models, add them to the requirements. For example, if you're using a model from the         transformers library like "BAAI/bge-base-en-v1.5," you might need to include it explicitly.
-    Audio Processing:
+    3.Audio Processing:
         The pydub library is used for audio processing. If you're working with specific audio file formats, you may need to               install additional libraries like pydub[ffmpeg] to handle various audio file formats.
-    Streamlit:
+    4.Streamlit:
         Ensure that the Streamlit version specified in the requirements matches the version compatible with your script.
-    ChromaDB:
+    5.ChromaDB:
         The chromadb library seems to be custom or specific to your project. Ensure that it's available and correctly installed.
-    torch:
+    6.torch:
         Ensure the specified version of torch is compatible with your system and other dependencies.
-    Standard Libraries:
+    7.Standard Libraries:
         Libraries such as os, subprocess, re, pickle, shutil, numpy, fitz, and others are part of the standard library and don't          need to be listed in the requirements.txt.
 
 Important Notes:
