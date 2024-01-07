@@ -2,7 +2,7 @@
 
 Overview:
 
-This Streamlit application provides functionalities for uploading various types of documents (PDF, DOCX, TXT, HTML, MP3, WAV, OGG, MPEG), processing URLs, and answering questions based on a trained model. The project leverages libraries such as llama_index, chromadb, langchain, transformers, torch, fitz, pydub, IPython, beautifulsoup4, etc.
+    This Streamlit application provides functionalities for uploading various types of documents (PDF, DOCX, TXT, HTML, MP3, WAV, OGG, MPEG), processing URLs, and answering questions based on a trained model. The project leverages libraries such as llama_index, chromadb, langchain, transformers, torch, fitz, pydub, IPython, beautifulsoup4, etc.
 
 Features:
 
@@ -23,32 +23,26 @@ Features:
         Builds a VectorStoreIndex from the documents.
 
 Usage:
-
     Clone the Repository:
-
-    bash
-
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+    
+    git clone https://github.com/your-username/your-repository.git
+    cd your-repository
 
 Install Dependencies:
 
-bash
-
-pip install -r requirements.txt
-
+    pip install -r requirements.txt
+    
 Run the Application:
-
-bash
 
     streamlit run your_script_name.py
 
     Replace your_script_name.py with the actual name of your Python script.
 
-    Usage Modes:
-        The application offers two modes: "Upload" and "Chat."
-        "Upload" mode allows users to upload files and process URLs.
-        "Chat" mode enables users to ask questions and receive answers.
+Usage Modes:
+
+    The application offers two modes: "Upload" and "Chat."
+    "Upload" mode allows users to upload files and process URLs.
+    "Chat" mode enables users to ask questions and receive answers.
 
 File Structure:
 
@@ -62,31 +56,24 @@ Dependencies:
 Configuration:
 
     Python 3.x
-    
     Hugging Face Models:
-        If you're using specific Hugging Face models, add them to the requirements. For example, if you're using a model from the transformers library like "BAAI/bge-base-en-v1.5," you might need to include it explicitly.
-
+        If you're using specific Hugging Face models, add them to the requirements. For example, if you're using a model from the         transformers library like "BAAI/bge-base-en-v1.5," you might need to include it explicitly.
     Audio Processing:
-        The pydub library is used for audio processing. If you're working with specific audio file formats, you may need to install additional libraries like pydub[ffmpeg] to handle various audio file formats.
-
+        The pydub library is used for audio processing. If you're working with specific audio file formats, you may need to               install additional libraries like pydub[ffmpeg] to handle various audio file formats.
     Streamlit:
         Ensure that the Streamlit version specified in the requirements matches the version compatible with your script.
-
     ChromaDB:
         The chromadb library seems to be custom or specific to your project. Ensure that it's available and correctly installed.
-
     torch:
         Ensure the specified version of torch is compatible with your system and other dependencies.
-
     Standard Libraries:
-        Libraries such as os, subprocess, re, pickle, shutil, numpy, fitz, and others are part of the standard library and don't need to be listed in the requirements.txt.
+        Libraries such as os, subprocess, re, pickle, shutil, numpy, fitz, and others are part of the standard library and don't          need to be listed in the requirements.txt.
 
 Important Notes:
 
     Ensure that the required resources (models, data) are available.
     Check file paths and configurations for proper setup.
-
-
+    
 Issues and Feedback:
 
     If you encounter any issues or have feedback, please open an issue.
